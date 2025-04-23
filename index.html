@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIVA - Assistente Virtual</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIVA - Sua IA</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Bem-vindo à TIVA - Sua Assistente Virtual</h1>
-        <div class="chat-box">
-            <div id="chat-area"></div>
-            <input type="text" id="user-input" placeholder="Digite sua mensagem...">
-            <button onclick="sendMessage()">Enviar</button>
-        </div>
-    </div>
-    <script src="script.js"></script>
+  <!-- Seu conteúdo aqui... -->
+
+  <!-- Código Firebase -->
+  <script type="module">
+    // Importa as funções necessárias do SDK Firebase
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+
+    // Configuração do Firebase
+    const firebaseConfig = {
+      apiKey: "AIzaSyBD2zI2Yz72NWsSJQYnrmmFEtor4XNCKTc",
+      authDomain: "tiva-a581f.firebaseapp.com",
+      projectId: "tiva-a581f",
+      storageBucket: "tiva-a581f.firebasestorage.app",
+      messagingSenderId: "1043732716355",
+      appId: "1:1043732716355:web:251a80335ac0523fd4adf6"
+    };
+
+    // Inicializa o Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 </body>
 </html>
